@@ -6,7 +6,7 @@ import torch.nn as nn
 import torchaudio.transforms as transforms
 import io
 import soundfile as sf
-# ///////////
+# ///
 
 labels = (torch.load("labels.pth"))
 num_classes = len(labels)
